@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background: green;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.card{
+    height: 65rem;
+    width: 45rem;
+    background: white;
+
+    border-radius: 1rem;
+}
+
+.suit-top{
+    height: 20%;
+    padding: 3.5rem 1rem;
+}
+
+.card-id{
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 10rem;
+}
+
+.suit-bottom{
+    height: 20%;
+    padding: 3.5rem 1rem;
+    transform: rotate(180deg);
+}
+
+.suit{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.suit-red{
+    color: red;
+}
+
+/* .spade{
+
+}
+
+.ace{
+
+}
+
+.king{
+
+}
+
+.queen{
+
+}
+
+.jack{
+
+} */
